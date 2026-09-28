@@ -1,0 +1,12 @@
+{
+  "random_seed": 20260823,
+  "primer_file": "primer.xlsx",
+  "topcoat_file": "topcoat.xlsx",
+  "sheet_name": "coating_samples",
+  "primer_core_targets": ["salt_spray_pass_h", "adhesion_mpa_or_grade"],
+  "primer_aux_targets": ["wear_mass_loss_mg"],
+  "topcoat_core_targets": ["salt_spray_pass_h", "wear_mass_loss_mg"],
+  "holdout_policy": "freeze_before_modeling",
+  "paired_system_modeling": false,
+  "new_experimental_validation": false
+}

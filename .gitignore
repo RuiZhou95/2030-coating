@@ -1,0 +1,48 @@
+# External inputs
+external_data/
+external_literature/
+external_templates/
+*.xlsx
+*.xls
+
+# Generated data and analysis outputs
+data/
+results/
+figure/
+logs/
+archive/
+models/
+*.csv
+*.tsv
+*.parquet
+*.joblib
+*.pkl
+
+# Manuscript and rendered artifacts
+manuscript/*.md
+manuscript/*.docx
+manuscript/qa/
+supplementary/*.md
+supplementary/*.docx
+supplementary/*.png
+supplementary/*.pdf
+supplementary/*.svg
+supplementary/qa*/
+supplementary/literature_text/
+
+# Python and editor artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Scheduler output
+slurm-*.out
+slurm-*.err
